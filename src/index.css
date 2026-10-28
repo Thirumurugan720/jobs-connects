@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  background: linear-gradient(180deg, #f6f8ff 0%, #eef3ff 100%);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.shop-page {
+  min-height: 100vh;
+}
+
+.navbar-brand {
+  letter-spacing: 0.04rem;
+}
+
+.promo-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 2rem 2.5rem;
+  border-radius: 1.5rem;
+  background: linear-gradient(135deg, #1e3a8a, #2563eb);
+  color: white;
+  box-shadow: 0 1rem 1.8rem rgba(37, 99, 235, 0.25);
+}
+
+.promo-banner h2 {
+  margin: 0.5rem 0;
+  font-weight: 800;
+  color: white;
+}
+
+.promo-banner p {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.promo-tag {
+  display: inline-block;
+  padding: 0.4rem 0.8rem;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.18);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08rem;
+  font-weight: 700;
+}
+
+.shop-badge {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  background: #e9f0ff;
+  color: #2749c3;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.08rem;
+  text-transform: uppercase;
+}
+
+.product-section {
+  margin-top: 2rem;
+}
+
+.card {
+  box-shadow: 0 0.5rem 1.25rem rgba(15, 23, 42, 0.08);
+  border: 1px solid rgba(15, 23, 42, 0.05);
+  border-radius: 1rem;
+  overflow: hidden;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 0.9rem 1.8rem rgba(15, 23, 42, 0.12);
+}
+
+.card-img-top {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.btn {
+  transition: 0.2s ease-in-out;
+}
+
+.btn:hover {
+  transform: translateY(-1px);
+}
+
+.cart-summary {
+  background: #ffffff;
+  border-radius: 1rem;
+  padding: 1rem 1.25rem;
+  box-shadow: 0 0.5rem 1.2rem rgba(15, 23, 42, 0.08);
+}
+
+.cart-item-card {
+  border-radius: 0.9rem;
+  overflow: hidden;
+  border: 1px solid rgba(15, 23, 42, 0.08);
+}
+
+.gpay-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.7rem;
+  padding: 0.9rem 1.5rem;
+  border: none;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #1f6feb, #0f172a);
+  color: white;
+  font-weight: 700;
+  font-size: 1rem;
+  box-shadow: 0 0.7rem 1.5rem rgba(31, 111, 235, 0.35);
+  cursor: pointer;
+}
+
+.gpay-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.8rem;
+  height: 1.8rem;
+  border-radius: 50%;
+  background: white;
+  color: #1f6feb;
+  font-weight: 800;
+}
+
+@media (max-width: 768px) {
+  .promo-banner {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1.5rem;
+  }
+}
+
